@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$base-font: 'Manrope',
+sans-serif;
+
+// colors
+
+$gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+$gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+$gradient-bg: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+$bg-color: #040C18;
+$txt-color: #81AFDD;
+$color-subtext: #FF8A71;
+$color-blog: #042c54;
+$color-footer : #031B34;
+$white: #ffffff;
+
+
+button {
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: $white;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $base-font;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &.primary {
+        background-color: #ff4820;
+    }
+
+
+
+}
+
+a.btn-link-s {
+    align-items: center;
+    display: flex;
+    text-wrap: nowrap;
+    background-color: #464646;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: $white;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $base-font;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ff4820;
+    }
+}
+
+a {
+    &:hover {
+        color: #ff4820;
+    }
+}
